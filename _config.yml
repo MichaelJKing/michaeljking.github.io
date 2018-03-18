@@ -85,8 +85,8 @@ analytics:
 # Site Author
 author:
   name             : "Michael King"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : ""
+  avatar           : "/assets/bio_photo.jpg"
+  bio              : "I have wide ranging interests but especially Machine Learning, Robotics and Computer Vision"
   location         : "UK"
   email            :
   uri              :
