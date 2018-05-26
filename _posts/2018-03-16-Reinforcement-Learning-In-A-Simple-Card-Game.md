@@ -667,7 +667,7 @@ def run_episodes(agent, num_episodes=int(1e6), gamma=1):
             s_prime = environment_state.get_state()
 
             # If the state we moved to is not terminal choose the next action
-            # now so that we can update q learning algorithms
+            # now so that we can update algorithms like SARSA which learn q
             q_prime = 0
             a_prime = -1
             if not environment_state.is_terminal():
